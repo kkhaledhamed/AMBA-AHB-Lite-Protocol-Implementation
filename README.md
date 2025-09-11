@@ -124,4 +124,3 @@ This project delivers a **fully functional AHB-Lite implementation** in Verilog 
 For full protocol specification:  
 📄 [ARM IHI0033A: AMBA AHB-Lite Specification](https://www.eecs.umich.edu/courses/eecs373/readings/ARM_IHI0033A_AMBA_AHB-Lite_SPEC.pdf)
 
----
