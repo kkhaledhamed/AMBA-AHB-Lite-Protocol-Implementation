@@ -1,8 +1,8 @@
-# 🚀 AMBA AHB-Lite Protocol Implementation
+#  AMBA AHB-Lite Protocol Implementation
 
 ### Author
 **Khaled Ahmed Hamed**  
-📌 Summer 2025 – Digital Communication and Digital Design Internship  
+📌 Summer 2025 – ADI Digital Communication and Digital Design Internship  
 
 ---
 
