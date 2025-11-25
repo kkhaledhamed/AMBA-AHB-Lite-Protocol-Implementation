@@ -229,12 +229,7 @@ module AHB_LITE_TOP_TB;
       start = 0; // Deassert after data capture
       
       $display("Read data: 0x%h at %0t", read_data, $time);
-      /*
-      if (read_data === expected) begin
-        $display("SUCCESS: Data matched (0x%h)", expected);
-      end else begin
-        $display("ERROR: Expected 0x%h, Got 0x%h", expected, read_data);
-      end */
+
     end
   endtask
 
@@ -243,5 +238,6 @@ module AHB_LITE_TOP_TB;
       $monitor("[%0t] HTRANS: %b, HADDR: %h, HWRITE: %b, HWDATA: %h, HRDATA: %h, HREADY: %b",
                $time, HTRANS, HADDR, HWRITE, HWDATA, HRDATA, HREADY);
   end
+
 
 endmodule
