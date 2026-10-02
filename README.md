@@ -2,11 +2,11 @@
 
 ### Author
 **Khaled Ahmed Hamed**  
-📌 Summer 2025 – ADI Digital Communication and Digital Design Internship  
+ Summer 2025 – ADI Digital Communication and Digital Design Internship  
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 This project implements and verifies a **complete AMBA®3 AHB-Lite system** using **Verilog HDL**.  
 The design demonstrates the **AMBA bus protocol** concepts of:  
 - **High-performance pipelined bus transfers**  
@@ -86,7 +86,7 @@ The AMBA AHB-Lite implementation follows the ARM **IHI0033A** specification.
 
 ---
 
-## 🧪 Testbench & Simulation
+## Testbench & Simulation
 - **Clock**: 10 ns period  
 - **Reset**: Active-low asynchronous reset  
 
