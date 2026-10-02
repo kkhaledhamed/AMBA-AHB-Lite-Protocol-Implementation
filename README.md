@@ -100,7 +100,7 @@ The AMBA AHB-Lite implementation follows the ARM **IHI0033A** specification.
 | Write     | `0x40004000` | `0xAABBCCDD` | PASS   |
 | Read      | `0x40004000` | `0xAABBCCDD` | PASS   |
 
-✔ Verified **single & burst transfers, pipelining, and error handling**.
+Verified **single & burst transfers, pipelining, and error handling**.
 
 ---
 
