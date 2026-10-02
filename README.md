@@ -14,7 +14,7 @@ The design demonstrates the **AMBA bus protocol** concepts of:
 - **Handshake-based synchronization**  
 - **Error handling**  
 
-### 🔑 Key Features
+###  Key Features
 - Single **AHB-Lite Master** with FSM-based control  
 - Three **AHB-Lite Slaves**, each mapped to 1KB memory  
 - **Address Decoder** for slave selection  
@@ -26,7 +26,7 @@ The design demonstrates the **AMBA bus protocol** concepts of:
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 The AMBA AHB-Lite implementation follows the ARM **IHI0033A** specification.
 
 <img width="576" height="286" alt="image" src="https://github.com/user-attachments/assets/3b60770f-cd69-4aee-81d9-c2c0d69eaeba" />
@@ -104,7 +104,7 @@ The AMBA AHB-Lite implementation follows the ARM **IHI0033A** specification.
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 - Extend to **multi-master systems**
 - Add **wrapping bursts (WRAP4/8/16)**, locked transfers, and protection
 - **UVM-based verification environment** with coverage-driven testing
@@ -114,7 +114,7 @@ The AMBA AHB-Lite implementation follows the ARM **IHI0033A** specification.
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 This project delivers a **fully functional AHB-Lite implementation** in Verilog with:
 - A single master
 - Multiple memory-mapped slaves
